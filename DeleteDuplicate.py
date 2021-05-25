@@ -1,8 +1,5 @@
 import os
-import pyfiglet
 os.system("color B")
-ascii_banner = pyfiglet.figlet_format("Delete Duplicate")
-print(ascii_banner)
 ###########################################
 # function to remove duplicate emails
 def remove_duplicate():
@@ -21,7 +18,6 @@ def remove_duplicate():
     emails.close()
 # assigns no_duplicate_emails.txt to variable below
 os.system('cls' if os.name == 'nt' else 'clear')
-print(ascii_banner)
 iii = input(" || Enter Name Text File : ")
 bbb = input(" || Save To : ")
 no_duplicate_emails = open(bbb, 'w')
