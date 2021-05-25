@@ -1,5 +1,4 @@
 import os
-os.system("color B")
 ###########################################
 # function to remove duplicate emails
 def remove_duplicate():
